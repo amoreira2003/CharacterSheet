@@ -1,6 +1,6 @@
 ![Banner](charactersheetrpgbanner.png)
 
-### 😀 Introdução
+### 🤗 Introdução
 
 Seja Muito bem víndo, antes de utilizar o projeto por favor leia as politicas de uso, essa character sheet foi feita baseada na idéia da ficha de personagem utilizados no [RPG Ordem Paranormal](https://ordemparanormal.fandom.com/wiki/Ordem_Paranormal_Wiki), código 100% original e feito por mim, é isso faça um bom uso da aplicação.
 
