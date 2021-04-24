@@ -6,7 +6,7 @@ Seja Muito bem víndo, antes de utilizar o projeto por favor leia as politicas d
 
 ### 🤝 Politicas de Uso.
 
-O Projeto é feito em open-source ou seja você pode alterar e utilizar o código da forma que quiser, lembre-se de sempre deixar meus créditos no código já que a parte visual da aplicação não contem os mesmos, qualquer alteração no código original é bem vindo, você enviar um push ou me chamar no discord para me enviar o código e se for algo positivo para o projeto a alteração sera feita.
+O Projeto é feito em open-source ou seja você pode alterar e utilizar o código para uso pessoal, você não pode vender esse codigo e nenhum codigo feito a partir dele, lembre-se de sempre deixar meus créditos no código já que a parte visual da aplicação não contem os mesmos, qualquer alteração no código original é bem vindo, você enviar um push ou me chamar no discord para me enviar o código e se for algo positivo para o projeto a alteração sera feita.
 
 ### ⚔️ Sobre o Projeto
 
