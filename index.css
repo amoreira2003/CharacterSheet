@@ -8,12 +8,20 @@ body {
 
 #title {
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
-    text-align: center;
+}
+
+#subtitle {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: -30px;
 }
 
 .header {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
