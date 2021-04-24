@@ -18,6 +18,8 @@ Esse é o repositório responsável pelos códigos do Character Sheet que é um 
 
 ### 🛠 Como Utilizar
 
+O Projeto esta em desenvolvimento, esta seção sera feita quando o primeiro release estiver disponível.
+
 
 
 
