@@ -1,0 +1,26 @@
+* {
+    font-family: 'MedievalSharp', cursive;
+    user-select: none;
+}
+
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+}
+
+.sheet {}
+
+.header {
+    text-align: center;
+    margin: auto;
+}
+
+#title {
+    color: white;
+    font-size: 60px;
+}
+
+#subtitle {
+    color: white;
+    font-size: 20px;
+}
