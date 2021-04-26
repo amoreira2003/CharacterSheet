@@ -13,6 +13,7 @@
         @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="random.js"></script>
 </head>
 
 <body>
@@ -22,8 +23,14 @@
     </a>
     <h1 class=header id=title>Master View</h1>
     <h2 class=header id=subtitle>Welcome Home Master...</h2>
+    <div id=dados>
+        <img id=image src="../resources/dado.png" alt="Dado image">
+        <h1 id=resultnumber>0</h1>
+        <h2 id=resulttext>Sucesso</h2>
+    </div>
     <h3 id=dadostitle>Dados</h3>
     <div id=dices></div>
+    <button onclick="Roll20()">D20</button>
 </body>
 
 </html>

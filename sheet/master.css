@@ -46,6 +46,32 @@
         transform: scale(1.1);
     }
     
+    #dados {
+        text-align: center;
+        position: fixed;
+        left: 650px;
+        z-index: 2;
+        opacity: 0;
+    }
+    
+    #resultnumber {
+        position: fixed;
+        left: 730px;
+        font-size: 60px;
+        top: 145px;
+        z-index: 2;
+        color: whitesmoke;
+    }
+    
+    #resulttext {
+        position: fixed;
+        left: 694px;
+        font-size: 30px;
+        top: 220px;
+        z-index: 2;
+        color: whitesmoke;
+    }
+    
     #dices {
         position: fixed;
         top: 200px;
