@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+  margin: 0;
+  width: 100%;
+  padding:0;
+  background-color: #FAF9F6;
+  overflow-x: hidden;
+  user-select: none;
+
+}
