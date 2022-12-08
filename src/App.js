@@ -4,9 +4,6 @@ import Stats from './Components/Stats.js';
 import Skills from './Components/Skills.js';
 import MenuItem from './Components/MenuItem';
 
-import { DarkModeSwitch } from 'react-toggle-dark-mode';
-const [isDarkMode, setDarkMode] = React.useState(false);
-
 
 import profilePicture from './Images/character_image.png';
 import dice from './Images/dice.png'
@@ -17,12 +14,7 @@ function closeBackground() {
 }
 
 
-
 function App() {
-
-  const toggleDarkMode = (checked) => {
-    setDarkMode(checked);
-  };
 
 return (
   <div>
