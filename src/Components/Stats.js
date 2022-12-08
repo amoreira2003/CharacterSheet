@@ -27,7 +27,7 @@ function rollDice(value, skill) {
 const Stats = params => {
 
     return (<div><li onClick={() => { rollDice(params.value, params.skill) }}
-        className='hover:scale-110 m-1 px-4 duration-300 ease-out bg-gradient-to-b from-[#7A96FF] to-[#B07CFF] rounded-lg p-1 text-fake-white font-varela  text-center text-lg'>
+        className='hover:scale-110 m-1 px-4 duration-300 ease-out bg-gradient-to-b dark:from-[#f576769c] dark:to-[#ffc87cdf] from-[#7A96FF] to-[#B07CFF] rounded-lg p-1 text-fake-white font-varela  text-center text-lg'>
         {params.skill} {params.value}</li>
     </div>);
 
