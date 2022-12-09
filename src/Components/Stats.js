@@ -1,5 +1,5 @@
 
-function rollDice(value, skill) {
+function rollDice(value, skill, displayText) {
     let random = Math.floor(Math.random() * 100) + 1;
     let result;
     console.log(random)
@@ -16,7 +16,7 @@ function rollDice(value, skill) {
     } else {
         result = 'Desastre'
     }
-    document.getElementById("skillType").innerText = skill;
+    document.getElementById("skillType").innerText = displayText;
     document.getElementById("successType").innerText = result + " (" + random + ")";
     document.getElementById("diceBackground").style = "visibility: visible"
 
@@ -26,7 +26,7 @@ function rollDice(value, skill) {
 
 const Stats = params => {
 
-    return (<div><li onClick={() => { rollDice(params.value, params.skill) }}
+    return (<div><li onClick={() => { rollDice(params.value, params.skill, params.displayText) }}
         className='hover:scale-110 m-1 px-4 duration-300 ease-out bg-gradient-to-b dark:from-[#f576769c] dark:to-[#ffc87cdf] from-[#7A96FF] to-[#B07CFF] rounded-lg p-1 text-fake-white font-varela  text-center text-lg'>
         {params.skill} {params.value}</li>
     </div>);
