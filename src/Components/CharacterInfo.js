@@ -8,7 +8,7 @@ const CharacterInfo = () => {
 
     function fetchCharacterInformations() {
         console.log("fetch")
-        fetch("http://66.11.123.62:4125/stats?id=0").then((response) => response.json()).then(json => {
+        fetch("https://rpgsheet.herokuapp.com/stats?id=0").then((response) => response.json()).then(json => {
             setInfo(json.data);
         })
 
