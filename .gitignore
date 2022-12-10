@@ -127,5 +127,6 @@ dist
 .pnp.*
 
 # Build Folder
+*/build/*
 build/*
 !build/build.xml
