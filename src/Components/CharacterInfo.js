@@ -28,40 +28,41 @@ const CharacterInfo = () => {
 
                 <div className='m-8 flex flex-row lg:flex-col flex-wrap justify-center align-center place-items-center basis-32'>
                     {info && info.map((data) => <React.Fragment>
-                    <div>
+                        <div>
 
                             <h1 className='font-varela dark:text-white  dark:placeholder-gray-400 text-black text-center text-2xl'>{data.FIRSTNAME} {data.LASTNAME}</h1>
                             <h1 className='font-varela dark:text-zinc-200 text-zinc-500 text-center text-md'>{data.ROLE}</h1>
-                        <br />
-                    </div>
+                            <br />
+                        </div>
 
-                    <div className='flex flex-row gap-1 w-full'>
-                    <div className="group hover:scale-110 hover:h-5 duration-300 ease-out hover:mx-2 w-1/2 h-3 self-start dark:bg-gray-600  bg-gray-200 rounded-full"> <div style={{width: `${(data.AHEALTH/data.MAXHEALTH)*100}%`}} className={"bg-red-600 dark:bg-[#ef44069c] group-hover:visible group-hover:h-5 duration-300 ease-out h-3 font-varela rounded-lg"}><h1 className='text-center justify-center group-hover:visible invisible'>{data.AHEALTH}/{data.MAXHEALTH}</h1></div> </div>
-                        <div className="group hover:scale-110 hover:h-5 duration-300 ease-out hover:mx-2 w-1/2 h-3 self-start dark:bg-gray-600  bg-gray-200 rounded-full"> <div style={{width: `${(data.ASANITY/data.MAXSANITY)*100}%`}} className={"bg-blue-600 dark:bg-[#2564eb9a group-hover:visible group-hover:h-5 duration-300 ease-out h-3 font-varela rounded-lg"}><h1 className='text-center justify-center group-hover:visible invisible'>{data.ASANITY}/{data.MAXSANITY}</h1></div> </div>
-                    </div>
-                    <div className='flex justify-center flex-row'>
-                        <ul>
-                            <Stats displayText="Força" skill="FOR" value={data.FORC}/>
-                            <Stats displayText="Constituição" skill="CON" value={data.CON} />
-                        </ul>
-                        <ul>
-                            <Stats displayText="Aparência" skill="APA" value={data.APA} />
-                            <Stats displayText="Inteligência" skill="INT" value={data.INTL} />
-                        </ul>
-                        <ul>
-                            <Stats displayText="Tamanho" skill="TAM" value={data.TAM} />
+                        <div className='flex flex-row gap-1 w-full'>
+                            <div className="group hover:scale-110 hover:h-5 duration-300 ease-out hover:mx-2 w-1/2 h-3 self-start dark:bg-gray-600  bg-gray-200 rounded-full"> <div style={{ width: `${(data.AHEALTH / data.MAXHEALTH) * 100}%` }} className={"bg-red-600 dark:bg-[#ef44069c] group-hover:visible group-hover:h-5 duration-300 ease-out h-3 font-varela rounded-lg"}><h1 className='text-center justify-center group-hover:visible invisible'>{data.AHEALTH}/{data.MAXHEALTH}</h1></div> </div>
+                            <div className="group hover:scale-110 hover:h-5 duration-300 ease-out hover:mx-2 w-1/2 h-3 self-start dark:bg-gray-600  bg-gray-200 rounded-full"> <div style={{ width: `${(data.ASANITY / data.MAXSANITY) * 100}%` }} className={"bg-blue-600 dark:bg-[#2564eb9a group-hover:visible group-hover:h-5 duration-300 ease-out h-3 font-varela rounded-lg"}><h1 className='text-center justify-center group-hover:visible invisible'>{data.ASANITY}/{data.MAXSANITY}</h1></div> </div>
+                        </div>
+                        <div className='flex justify-center flex-row'>
+                            <ul>
+                                <Stats displayText="Força" skill="FOR" value={data.FORC} />
+                                <Stats displayText="Constituição" skill="CON" value={data.CON} />
+                            </ul>
+                            <ul>
+                                <Stats displayText="Aparência" skill="APA" value={data.APA} />
+                                <Stats displayText="Inteligência" skill="INT" value={data.INTL} />
+                            </ul>
+                            <ul>
+                                <Stats displayText="Tamanho" skill="TAM" value={data.TAM} />
 
-                            <Stats displayText="Destreza" skill="DES" value={data.DES} />
-                        </ul>
-                        <ul>
-                            <Stats displayText="Poder" skill="POD" value={data.POD} />
-                            <Stats displayText="Educação" skill="EDU" value={data.EDU}/>
-                        </ul>
-                    </div>
+                                <Stats displayText="Destreza" skill="DES" value={data.DES} />
+                            </ul>
+                            <ul>
+                                <Stats displayText="Poder" skill="POD" value={data.POD} />
+                                <Stats displayText="Educação" skill="EDU" value={data.EDU} />
+                            </ul>
+                        </div>
 
-                    </React.Fragment> )}
+                    </React.Fragment>)}
+
                 </div>
-                <textarea id="notes" rows="1" className="overflow-hidden mb-4 md:w-full md:m-4 lg:w-64 lg:m-auto p-5 w-64 h-64 text-s dark:bg-gray-700 rounded-lg border  dark:border-gray-800 focus:ring-blue-500 focus:border-blue-500 bg-gray-700 border-gray-600 dark:placeholder-gray-400 placeholder-gray-400 dark:text-zinc-200 text-white dark:focus:ring-red-500 dark:focus:border-red-500" placeholder="Space for Some Quick Notes"></textarea>
+                <textarea id="notes" rows="1" className="invisible overflow-hidden mb-4 md:w-full md:m-4 lg:w-64 lg:visible lg:m-auto xl:-mx-4 p-5 w-64 h-64 text-s dark:bg-gray-700 rounded-lg border  dark:border-gray-800 focus:ring-blue-500 focus:border-blue-500 bg-gray-700 border-gray-600 dark:placeholder-gray-400 placeholder-gray-400 dark:text-zinc-200 text-white dark:focus:ring-red-500 dark:focus:border-red-500" placeholder="Space for Some Quick Notes"></textarea>
             </div>
         </div>
     )

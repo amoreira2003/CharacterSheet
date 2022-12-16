@@ -6,7 +6,7 @@ const ScrollMenu = () => {
     return (<React.Fragment>
         <div className='flex-col items-center rounded-lg w-screen hidden lg:flex lg:w-4/12  bg-gradient-to-b dark:from-[#f576769c] dark:to-[#ffc87cdf] from-[#7A96FF] to-[#B07CFF] drop-shadow-md'>
 
-            <h1 className='hover:scale-110 duration-200 ease-out relative top-40 basis-auto text-top text-6xl rounded-lg py-2 px-5 dark:bg-[#21262D] bg-white text-white font-varela'><div className='text-transparent text-white bg-clip-text bg-gradient-to-b dark:from-[#f576769c] dark:to-[#ffc87cdf] from-[#7A96FF] to-[#B07CFF]'>Player Sheet</div></h1>
+            <h1 className='hover:scale-110 duration-200 ease-out relative top-40 basis-auto text-top text-4xl 2xl:text-6xl rounded-lg py-2 px-5 dark:bg-[#21262D] bg-white text-white font-varela'><div className='text-transparent text-white bg-clip-text bg-gradient-to-b dark:from-[#f576769c] dark:to-[#ffc87cdf] from-[#7A96FF] to-[#B07CFF]'>Player Sheet</div></h1>
             <ul className='leading-relaxed relative top-60 list-none basis-auto text-2xl text-white font-varela text-center'>
                 <MenuItem text="Ficha do Jogador" />
                 <MenuItem text="Inventário" />

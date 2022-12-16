@@ -9,8 +9,14 @@ body {
   margin: 0;
   width: 100%;
   padding:0;
-  background-color: #0D1117;
+
   overflow-x: hidden;
   user-select: none;
 
+}
+
+@media (prefers-color-scheme: dark) {
+body {
+  background-color: #0D1117;
+}
 }
