@@ -62,7 +62,6 @@ const CharacterInfo = () => {
                     </React.Fragment>)}
 
                 </div>
-                <textarea id="notes" rows="1" className="invisible overflow-hidden mb-4 md:w-full md:m-4 lg:w-64 lg:visible lg:m-auto xl:-mx-4 p-5 w-64 h-64 text-s dark:bg-gray-700 rounded-lg border  dark:border-gray-800 focus:ring-blue-500 focus:border-blue-500 bg-gray-700 border-gray-600 dark:placeholder-gray-400 placeholder-gray-400 dark:text-zinc-200 text-white dark:focus:ring-red-500 dark:focus:border-red-500" placeholder="Space for Some Quick Notes"></textarea>
             </div>
         </div>
     )
