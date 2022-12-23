@@ -1,10 +1,19 @@
-# 📚 Descrição 
-Character Sheet é uma aplicação feita em React e TailwindCSS, em que seu objetivo é criar o design de uma ficha portatil.
-
-A Ficha é utilizada dentro do rpg de mesa para efetuar ações e guardar informações do personagem, sendo completamente automatizado pela aplicação.
+<div align="center">
+<img src="./charactersheetbanner.png" width="500" height="187.5">
 
 
-Você pode conferir o projeto <a href="https://amoreira2003.github.io/CharacterSheet/">aqui</a>
-# 🧰 Tecnologias
+<div align="start">
 
-NodeJS, React, TailwindCSS. 
+## 🤗 Introdução
+Esse repositório contem uma aplicação que seu objetivo é criar uma ficha para rpg de mesa.
+
+## ⚔️ Sobre o Projeto
+
+Esse projeto foi feito em <a href="https://pt-br.reactjs.org" target="_blank">React</a>. <br> 
+
+O <a href="https://github.com/amoreira2003/CharacterSheet" target="_blank">Character Sheet</a> é um projeto para meu <a href="https://github.com/amoreira2003" target="_blank">portfólio</a> de **Front-End**
+
+
+
+  <div>
+<div>
