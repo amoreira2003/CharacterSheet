@@ -16,7 +16,7 @@ function App() {
 
     <DiceRollBackground />
 
-    <div className='lg:m-20 flex flex-col lg:flex-row flex-shrink basis-full h-fit w-screen gap-4'>
+    <div className='lg:m-20 flex flex-col lg:flex-row flex-shrink h-fit gap-4'>
 
       <ScrollMenu />
 

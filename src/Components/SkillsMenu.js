@@ -13,7 +13,7 @@ const SkillsMenu = () => {
         console.log("fetch")
         fetch("https://rpgsheet.herokuapp.com/pericias?id=0").then((response) => response.json()).then(json => {
             setInfo(json.data);
-        })
+        }).catch((e) => console.log(e))
 
     }
 
@@ -24,7 +24,7 @@ const SkillsMenu = () => {
 
 
     return (<React.Fragment>
-        <div className='flex flex-row flex-wrap flex-shrink md:self-center lg:self-start justify-center md:justify-center lg:justify-start gap-1 p-8 rounded-lg w-fit lg:w-10/12 dark:bg-[#21262D] bg-white drop-shadow-md'>
+        <div className='flex flex-row flex-wrap flex-shrink md:self-center lg:self-start justify-center md:justify-center lg:justify-start gap-1 p-8 rounded-lg dark:bg-[#21262D] bg-white drop-shadow-md'>
 
             {info && info.map((skill) => <React.Fragment>
                 <Skills skill="Antropologia" value={skill.ANTROPOLOGIA} />
