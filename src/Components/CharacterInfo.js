@@ -19,12 +19,12 @@ const CharacterInfo = () => {
     }, [])
 
     return (
-        <div className='flex flex-col align-center rounded-lg w-[fit_-_5rem] md:mt-4 md:w-fit md:mx-auto lg:m-0 lg:w-fit dark:bg-[#21262D] bg-white drop-shadow-md'>
+        <div className='flex flex-col align-center rounded-lg w-[fit_-_5rem] md:mt-4 md:mx-auto lg:m-0  dark:bg-[#21262D] bg-white drop-shadow-md'>
 
-            <div className=' flex flex-row gap-1 p-1 align-center justify-center text-white w-fit flex-wrap '>
+            <div className='flex flex-row gap-1 p-1 align-center justify-center text-white flex-wrap '>
 
 
-                <img src={profilePicture} alt='CharacterPfp' className="m-auto lg:m-8 rounded-lg bg-gradient-to-b dark:from-[#f576769c] dark:to-[#ffc87cdf] from-[#7A96FF] to-[#B07CFF] w-24 h-24  md:w-64 md:h-64"></img>
+                <img src={profilePicture} alt='CharacterPfp' className="m-auto lg:m-8 rounded-lg  bg-gradient-to-b dark:from-[#f576769c] dark:to-[#ffc87cdf] from-[#7A96FF] to-[#B07CFF] w-24 h-24  md:w-64 md:h-64"></img>
 
                 <div className='m-8 flex flex-row lg:flex-col flex-wrap justify-center align-center place-items-center basis-32'>
                     {info && info.map((data) => <React.Fragment>
