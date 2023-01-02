@@ -9,7 +9,7 @@ Esse repositório contem uma aplicação que seu objetivo é criar uma ficha par
 
 ## ⚔️ Sobre o Projeto
 
-Esse projeto foi feito em <a href="https://pt-br.reactjs.org" target="_blank">React</a> e <a href="https://tailwindcss.com" target="_blank">TailwindCSS</a>. <br> 
+Esse projeto foi feito em <a href="https://pt-br.reactjs.org" target="_blank">React</a> com <a href="https://tailwindcss.com" target="_blank">TailwindCSS</a>. <br> 
 
 Você pode conferir o projeto ao vivo <a href="https://amoreira2003.github.io/CharacterSheet/">aqui!</a>
 
