@@ -10,7 +10,6 @@ const SkillsMenu = () => {
 
 
     function fetchCharacterInformations() {
-        console.log("fetch")
         fetch("https://rpgsheet.herokuapp.com/pericias?id=0").then((response) => response.json()).then(json => {
             setInfo(json.data);
         }).catch((e) => console.log(e))

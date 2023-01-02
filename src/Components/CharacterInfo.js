@@ -7,7 +7,6 @@ const CharacterInfo = () => {
     const [info, setInfo] = useState(null);
 
     function fetchCharacterInformations() {
-        console.log("fetch")
         fetch("https://rpgsheet.herokuapp.com/stats?id=0").then((response) => response.json()).then(json => {
             setInfo(json.data);
         })
@@ -19,7 +18,7 @@ const CharacterInfo = () => {
     }, [])
 
     return (
-        <div className='flex flex-col align-center rounded-lg w-[fit_-_5rem] md:mt-4 md:mx-auto lg:m-0  dark:bg-[#21262D] bg-white drop-shadow-md'>
+        <div className='flex flex-col align-center rounded-lg dark:bg-[#21262D] bg-white drop-shadow-md'>
 
             <div className='flex flex-row gap-1 p-1 align-center justify-center text-white flex-wrap '>
 
