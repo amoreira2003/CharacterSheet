@@ -23,7 +23,7 @@ const CharacterInfo = () => {
             <div className='flex flex-row gap-1 p-1 align-center justify-center text-white flex-wrap '>
 
 
-                <img src={profilePicture} alt='CharacterPfp' className="m-auto lg:m-8 rounded-lg  bg-gradient-to-b dark:from-[#f576769c] dark:to-[#ffc87cdf] from-[#7A96FF] to-[#B07CFF] w-24 h-24  md:w-64 md:h-64"></img>
+                <img src={profilePicture} alt='CharacterPfp' className="m-auto lg:m-8 rounded-lg  bg-gradient-to-b dark:from-[#f576769c] dark:to-[#ffc87cdf] from-[#7A96FF] to-[#B07CFF] w-28 h-28 sm:w-48 sm:h-48 md:w-64 md:h-64"></img>
 
                 <div className='m-8 flex flex-row lg:flex-col flex-wrap justify-center align-center place-items-center basis-32'>
                     {info && info.map((data) => <React.Fragment>

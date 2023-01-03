@@ -13,9 +13,18 @@ import React, {useState, useEffect} from 'react';
 
 
 
-
 function App() {
 
+  const [width, setWidth] = useState(window.innerWidth)
+
+  function resize() {
+    setWidth(window.innerWidth)
+  }  
+  
+  useEffect(() => {
+    window.addEventListener("resize", resize)
+    return () =>  {window.removeEventListener("resize",resize);}
+  },[window.innerWidth])
 
   return (<React.Fragment>
 
@@ -23,7 +32,7 @@ function App() {
 
     <div className='lg:m-20 flex flex-col lg:flex-row flex-shrink h-fit gap-4'>
 
-      {window.innerWidth > 1024 ? <ScrollMenu/> : <MobileScrollMenu/>}
+      {width > 1023 ? <ScrollMenu/> : <MobileScrollMenu/>}
 
       <div className='flex flex-col flex-shrink basis-full gap-4'>
 
