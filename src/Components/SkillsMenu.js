@@ -24,53 +24,35 @@ const SkillsMenu = () => {
 
     return (<React.Fragment>
         <div className='flex flex-row flex-wrap flex-shrink md:self-center lg:self-start justify-center md:justify-center lg:justify-start gap-1 p-8 rounded-lg dark:bg-[#21262D] bg-white drop-shadow-md'>
-
-            {info && info.map((skill) => <React.Fragment>
-                <Skills skill="Antropologia" value={skill.ANTROPOLOGIA} />
-                <Skills skill="Pistola" value={skill.PISTOLA} />
-                <Skills skill="Rifle" value={skill.RIFLE} />
-                <Skills skill="Arqueologia" value={skill.ARQUEOLOGIA} />
-                <Skills skill="Arremessar" value={skill.ARREMESSAR} />
-                <Skills skill="Arte" value={skill.ARTE} />
-                <Skills skill="Avaliação" value={skill.AVALIACAO} />
-                <Skills skill="Cavalgar" value={skill.CAVALGAR} />
-                <Skills skill="Charme" value={skill.CHARME} />
-                <Skills skill="Chaveiro" value={skill.CHAVEIRO} />
-                <Skills skill="Ciência" value={skill.CIENCIA} />
-                <Skills skill="Concertos Eletricos" value={skill.CONSELECTRICOS} />
-                <Skills skill="Concertos Mecanicos" value={skill.CONSMECANICO} />
-                <Skills skill="Direito" value={skill.DIREITO} />
-                <Skills skill="Contabilidade" value={skill.CONTABILIDADE} />
-                <Skills skill="Dirigir Automoveis" value={skill.DIRAUTOMOVEIS} />
-                <Skills skill="Disfarce" value={skill.DISFARCE} />
-                <Skills skill="Encontrar" value={skill.ENCONTRAR} />
-                <Skills skill="Escutar" value={skill.ESCUTAR} />
-                <Skills skill="Escalar" value={skill.ESCALAR} />
-                <Skills skill="Esquivar" value={skill.ESQUIVAR} />
-                <Skills skill="Labia" value={skill.LABIA} />
-                <Skills skill="Intimidação" value={skill.INTIMIDACAO} />
-                <Skills skill="Historia" value={skill.HISTORIA} />
-                <Skills skill="Furtividade" value={skill.FURTIVIDADE} />
-                <Skills skill="Outra Lingua" value={skill.LINGUAOUTRA} />
-                <Skills skill="Lutar" value={skill.LUTAR} />
-                <Skills skill="Medicina" value={skill.MEDICINA} />
-                <Skills skill="Mundo Natural" value={skill.MNATURAL} />
-                <Skills skill="Natação" value={skill.NATACAO} />
-                <Skills skill="Navegação" value={skill.NAVEGACAO} />
-                <Skills skill="Ocultismo" value={skill.OCULTISMO} />
-                <Skills skill="Maquinario" value={skill.MAQUINARIO} />
-                <Skills skill="Persuasão" value={skill.PERSUASAO} />
-                <Skills skill="Pilotar" value={skill.PILOTAR} />
-                <Skills skill="Prestidigitação" value={skill.PRESTIDIGITACAO} />
-                <Skills skill="Primeiros Socorros" value={skill.PSOCORROS} />
-                <Skills skill="Psicanalise" value={skill.PSICANALISE} />
-                <Skills skill="Psicologia" value={skill.PSICOLOGIA} />
-                <Skills skill="Saltar" value={skill.SALTAR} />
-                <Skills skill="Rastrear" value={skill.RASTREAR} />
-                <Skills skill="Sobrevivencia" value={skill.SOBREVIVENCIA} />
-                <Skills skill="Bibliotecas" value={skill.BIBLIOTECAS} />
-                                </React.Fragment>)}
-
+            <React.Fragment>
+                <Skills skill="Antropologia" value={1} />
+                <Skills skill="Pistola" value={1} />
+                <Skills skill="Rifle" value={1} />
+                <Skills skill="Arqueologia" value={1} />
+                <Skills skill="Arremessar" value={1} />
+                <Skills skill="Arte" value={1} />
+                <Skills skill="Avaliação" value={1} />
+                <Skills skill="Cavalgar" value={1} />
+                <Skills skill="Charme" value={1} />
+                <Skills skill="Chaveiro" value={1} />
+                <Skills skill="Ciência" value={1} />
+                <Skills skill="Concertos Eletricos" value={1} />
+                <Skills skill="Concertos Mecanicos" value={1} />
+                <Skills skill="Direito" value={1} />
+                <Skills skill="Contabilidade" value={1} />
+                <Skills skill="Dirigir Automoveis" value={1} />
+                <Skills skill="Disfarce" value={1} />
+                <Skills skill="Encontrar" value={1} />
+                <Skills skill="Escutar" value={1} />
+                <Skills skill="Escalar" value={1} />
+                <Skills skill="Esquivar" value={1} />
+                <Skills skill="Labia" value={1} />
+                <Skills skill="Intimidação" value={1} />
+                <Skills skill="Historia" value={1} />
+                <Skills skill="Furtividade" value={1} />
+                <Skills skill="Outra Lingua" value={1} />
+                <Skills skill="Lutar" value={1} />
+                                </React.Fragment>
         </div></React.Fragment>)
 }
 
