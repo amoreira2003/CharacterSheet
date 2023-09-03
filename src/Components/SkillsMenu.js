@@ -8,7 +8,7 @@ const SkillsMenu = () => {
 
   const fetchCharacterInformation = async () => {
     const response = await axios.get(
-      "http://192.168.15.5:5000/characters/character.json/attributes"
+      `http://localhost:5000/characters/sofia.json/attributes`
     );
     console.log(response);
     setInfo(response.data);
@@ -30,11 +30,12 @@ const SkillsMenu = () => {
                 attribute &&
                 Object.keys(attribute.skills).map((key) => {
                   const skill = attribute.skills[key];
-                  console.log(skill);
+
                   return (
                     <Skills
                       displayName={skill.displayName}
                       bonus={skill.bonus}
+                      dices={attribute.value}
                     />
                   );
                 })

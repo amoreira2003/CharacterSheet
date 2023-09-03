@@ -2,6 +2,7 @@ import './App.css';
 
 import CharacterInfo from './Components/CharacterInfo.js'
 import SkillsMenu from './Components/SkillsMenu';
+import CharacterContext from './Context/CharacterContext';
 
 import DiceRollBackground from './Components/DiceRollBackground';
 
@@ -10,12 +11,13 @@ import ScrollMenu from './Components/ScrollMenu';
 
 import React, {useState, useEffect} from 'react';
 
-
+import { useParams } from 'react-router-dom';
 
 
 function App() {
-
+  const { id } = useParams();
   const [width, setWidth] = useState(window.innerWidth)
+  const [character, setCharacter] = useState(id)
 
   function resize() {
     setWidth(window.innerWidth)
@@ -26,7 +28,7 @@ function App() {
     return () =>  {window.removeEventListener("resize",resize);}
   },[window.innerWidth])
 
-  return (<React.Fragment>
+  return (<CharacterContext.Provider value={{setCharacter,character}}><React.Fragment>
 
     <DiceRollBackground />
 
@@ -44,6 +46,7 @@ function App() {
     </div>
 
   </React.Fragment>
+  </CharacterContext.Provider>
   );
 }
 
