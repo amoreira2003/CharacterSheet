@@ -8,7 +8,7 @@ const SkillsMenu = () => {
 
   const fetchCharacterInformation = async () => {
     const response = await axios.get(
-      `http://localhost:5000/characters/sofia.json/attributes`
+      `http://192.168.83.209:5000/characters/sofia.json/attributes`
     );
     console.log(response);
     setInfo(response.data);

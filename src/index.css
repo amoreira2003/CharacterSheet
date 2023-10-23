@@ -5,6 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
+
 body {
   margin: 0;
   width: 100%;
@@ -13,6 +14,10 @@ body {
   overflow-x: hidden;
   user-select: none;
 
+}
+
+img {
+  pointer-events: none;
 }
 
 @media (prefers-color-scheme: dark) {
