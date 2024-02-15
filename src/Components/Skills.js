@@ -1,24 +1,16 @@
 import dice from '../Images/dice.png'
 
-function rollDice(value,skill) {
-    let random = Math.floor(Math.random() * 100) + 1;
+function rollDice(value, skill, dices) {
+    let random = [];
     let result;
-    console.log(random)
-    if (random === 1) {
-        result = 'Sucesso Critico'
-    } else if (random < Math.round(value / 5)) {
-        result = 'Sucesso Extremo'
-    } else if (random < Math.round(value / 2)) {
-        result = 'Sucesso Bom'
-    } else if (random <= value) {
-        result = 'Sucesso Regular'
-    } else if (random > value && random < 96) {
-        result = 'Fracasso'
-    } else {
-        result = 'Desastre'
+    for (let i = 0; i < dices; i++) {
+        random.push(Math.floor(Math.random() * 20) + 1);
     }
+    result = random.join(", ");
+    
+
     document.getElementById("skillType").innerText = skill;
-    document.getElementById("successType").innerText = result + " (" + random +")";
+    document.getElementById("successType").innerText = result;
     document.getElementById("diceBackground").style = "visibility: visible"
 
     return {result,random}

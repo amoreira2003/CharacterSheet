@@ -14,7 +14,7 @@ const CharacterInfo = () => {
   var image;
   const fetchCharacterInformation = async () => {
     const response = await axios.get(
-      `http://192.168.83.209:5000/characters/${character}`
+      `http://localhost:5000/characters/${character}`
     );
 
     // by character name set the character image

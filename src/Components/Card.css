@@ -45,6 +45,26 @@ transform: rotateY(180deg);
 background-size: auto 102%;
 background-position: -2px -5px;
 }
+
+
+.skill .flip, .skill .unflip {
+  background: #1b29ed;
+  box-shadow: 0 2px 20px #0b1485;
+  }
+  .skill .inner-card-backface .image {
+      background-image: url('../Images/cartasskill2.png');
+  }
+  .skill .inner-card-backface .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 14px;
+  height: 100%;
+  transform: rotateY(180deg);
+  background-size: auto 102%;
+  background-position: -2px -5px;
+  }
 .unflip {
 top: auto;
 background: #2d2d62;
@@ -57,6 +77,11 @@ bottom: 1rem;
 .blastoise .flip:hover, .blastoise .unflip:hover {
 background: #0f1cc5;
 }
+
+
+.skill .flip:hover, .skill .unflip:hover {
+  background: #0f1cc5;
+  }
 .inner-card-backface {
     transform: rotateX(0) rotateY(0deg) scale(1) translateZ(-4px);
   border-radius: 14px;
@@ -123,6 +148,11 @@ background: #0f1cc5;
 .card.blastoise .inner-card {
 
     background-image: url('../Images/cartas.png');
+}
+
+.card.skill .inner-card {
+
+  background-image: url('../Images/cartasskill.png');
 }
 .card .glare {
 content: '';

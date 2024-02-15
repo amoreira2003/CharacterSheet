@@ -43,7 +43,7 @@ function PlayerList() {
 
   useEffect(() => {
     // Replace with your ESP32 WebSocket server address
-    const serverAddress = 'ws://192.168.83.138:81';
+    const serverAddress = 'ws://192.168.0.104:81';
 
     // Create a WebSocket connection
     const socket = new Sockette(serverAddress, {
